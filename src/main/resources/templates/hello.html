@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+</head>
+<body>
+    <h3>thymeleaf模式下的三种模式：</h3><br>
+    <p th:text="${name}">name</p>
+    <p th:text="'hello ' + ${name} + '!'">hello world!</p>
+    <p th:text="|hello ${name}|">hello world!</p>
+</body>
+</html>
